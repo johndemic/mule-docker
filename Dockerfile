@@ -17,7 +17,7 @@ RUN cd /opt/mule && tar xvzf ~/mule.tar.gz
 # Define working directory.
 WORKDIR /opt/mule
 
-#CMD [ "/opt/mule/bin/mule" ]
+CMD [ "/opt/mule/bin/mule" ]
 #CMD [ "/bin/bash" ]
 
 # Default http port
